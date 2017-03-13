@@ -9,6 +9,7 @@
   "author": "Harikrishnan",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "express": "~4.14.0"
+    "express": "~4.14.0",
+    "gmail-send": "~1.2.7"
   }
 }

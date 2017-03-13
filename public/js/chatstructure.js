@@ -6,40 +6,35 @@ var chatObject = {
 		},
 		"Button1": {
 			"response": "Of course you can, Are you are a business looking",
-			"response2": "Or should i take u presentation?",
-			"response3": "Let me know your intentions",
-			"Button3": "Reimagine customer experience",
-			"Button4": "New business models"
+			"Button3": "Creating omni-channel experience",
+			"Button4": "Developing new business models"
 		},
 		"Button2": {
 			"response": "We are humbled ! There are couple of areas where we work with enterprises. Here is a short video to get to know more about us.  <br> <iframe width='354' height='200' src='https://www.youtube.com/embed/8WspkU2yoXQ' frameborder='0' allowfullscreen></iframe> <br>Does anything of what we do strike a chord?",
-			"CustomAction": {
-				"method": "ABOUT_COSTRATEGIX"
-			},
 			"Button30":"Not really. ",
 			"Button31":"Yes"
 		},
 		"Button3": {
 			"response": "Cool ! You can create new touch points for your customers to transact with your business.",
 			"Button5": "Tell me more !",
-			"Button6": "We have omnichannel presence"
+			"Button6": "We already provide our customers omni channel experience"
 		},
 		"Button5": {
-			"response": "I will be happy to. Have you considered mobile, social and emerging channels such as Amazon Alexa or Apple Siri?",
+			"response": "We are humbled. Have you considered mobile, social and emerging channels such as Amazon Alexa or Apple Siri?",
 			"Button7": "Nope ! ",
-			"Button8": "Got it!"
+			"Button8": "Yes, We Have"
 		},
 		"Button7": {
-			"response": "I think we can help you. Let’s talk",
+			"response": " We can discuss ideas. Let’s talk",
 			"Button9": "No thanks ! ",
-			"Button10": "Schedule a 'call'"
+			"Button10": "Let's Schedule a 'call'"
 		},
 		"Button9": {
 			"response": " Not a problem. If you think we can help you in any way write to us."
 		},
 		"Button10": {
 			"CustomAction": {
-				"method": "SCHEDULE_CALL"
+				"method": "CAPTURE_EMAIL_ID"
 			}
 		},
 		"Button8": {
@@ -99,13 +94,13 @@ var chatObject = {
 			"response":"Thank you for visiting us. "
 		},
 		"Button22":{
-			"response":"Sure. Let us meet again.",
+			"response":"We will be happy to help you with. Let us schedule some time. Please leave your email id here",
 			"CustomAction":{
 				"method":"CAPTURE_EMAIL_ID",
 				"ControlName":"TextBox"
 			}
 		},
-		"Button23":{
+		"Button19":{
 			"response":"There are chatbots, AI and cognitive computing.",
 			"Button24":"Interesting",
 			"Button25":"Not looking in that direction"

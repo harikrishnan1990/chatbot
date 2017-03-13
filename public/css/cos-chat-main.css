@@ -1,0 +1,140 @@
+body { background: #fff url('../images/cos-body-bg.jpg')no-repeat center center;font-family: 'Open Sans', sans-serif;font-weight: 300;background-size: cover; }
+.txtc {text-align: center;}
+.txtr {text-align: right;}
+.btn {margin-bottom: 20px;font-weight: 600;border: 1px solid transparent;padding: 17px 25px;
+font-size: 10px;border-radius: 8px;width: 100%;}
+:focus, .form-control:focus {outline:none;box-shadow: none;border: 1px solid transparent;}
+.form-control:focus{border:1px solid #cbcbcb !important;}
+.btn:focus, .btn:active:focus, .btn.active:focus{outline: none;}
+.btn-default {color: #fff;background-color: #c8298d;border-color: #c81184;}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{
+  background-color: #ffff;border-color: #cbcbcb;color: #000;}
+.form-control {height: 60px;padding: 6px 12px;font-size: 18px;text-align: center;border: 1px solid #cbcbcb;
+border-radius: 8px;box-shadow: none;color: #000;font-weight: 300;font-style: italic;transition:none;}
+.form-control::-moz-placeholder {color: #000;opacity: 1;font-weight: 300;font-style: italic;font-size: 18px;}
+img { border: 0; max-width: 100%; }
+
+
+
+/* Header Section Here */
+.cos-header {padding: 20px 0;border-bottom: 1px solid #cbcbcb;background: #fff;}
+
+
+
+
+
+
+/** cos-chatline box structure **/
+
+.cos-chatline-section {padding: 0 20px;}
+.cos-chatline {background: rgba(255,255,255,0.35);list-style: none;padding: 12px 0 20px;position: relative;}
+.cos-chatline:before {top: 0;bottom: 0;position: absolute;content: " ";width: 1px;background-color: #cbcbcb;left: 50%;}
+.cos-chatline li .cos-tl-circ {position: absolute;top: 0px;left: 40px;text-align: center;background: #cbcbcb;color: #fff;width: 15px;height: 15px;line-height: 35px;margin-left: -7px;border: 0;border-top-right-radius: 50%;border-top-left-radius: 50%;border-bottom-right-radius: 50%;border-bottom-left-radius: 50%;}
+.cos-chatline li {margin: 0px 15px 25px 0px;position: relative;}
+
+.cos-chatline-inverted .cos-chatline-panel .tl-body p {color: #000;font-size: 18px;text-align: center;}
+.cos-link-text {text-decoration: underline;color: #fff;font-style: italic;}
+.cos-link-text:hover{color: #fff; text-decoration: none;}
+
+.cos-chatline-transparent .cos-chatline-panel, .cos-loader .cos-chatline-panel{background: transparent !important;border: 0 !important;padding: 0 !important;}
+.cos-media {display: inline-block;padding: 15px 0 10px 0;}
+.modal-body {padding: 0;}
+.modal-content {box-shadow: none;background-color: transparent;border:none;border-radius: 0;}
+.close {background: url('../images/cos-popup-close.png')no-repeat center center !important;width: 34px;height: 34px;color: #fff;opacity: 1;text-indent: -9999px;
+display: inline-block;margin: 0 0 10px 0;overflow: hidden;}
+.modal-header {padding: 0;border-bottom: 0;min-height: 34px;}
+
+
+.tldate {display: block;width: 200px;background: #414141;border: 3px solid #212121;color: #ededed;margin: 0 auto;padding: 3px 0;font-weight: bold;text-align: center;-webkit-box-shadow: 0 0 11px rgba(0,0,0,0.35);}
+.cos-chatline li:before, .cos-chatline li:after {content: " ";display: table;}
+.cos-chatline li:after {clear: both;}
+.cos-chatline li:before, .cos-chatline li:after {content: " ";display: table;}
+
+/** cos-chatline panels **/
+.cos-chatline li .cos-chatline-panel {width: 47.7%;float: left;background: #1db7f1;border: 0px;padding:9px 22px 9px 22px;position: relative;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
+.tl-body-time {position: absolute;bottom: -30px;right: 0;}
+.tl-body-time{color: #9a9a9a;}
+.cos-chatline li .cos-chatline-panel.noarrow:before, .cos-chatline li .cos-chatline-panel.noarrow:after {top:0;right:0;display: none;border: 0;}
+.cos-chatline li.cos-chatline-inverted .cos-chatline-panel {float: right;background: #fff;border: 1px solid #cbcbcb;padding: 17px 22px;}
+.cos-chatline li.cos-chatline-inverted .cos-chatline-panel:before {border-left-width: 0;border-right-width: 15px;left: -15px;right: auto;}
+.cos-chatline li.cos-chatline-inverted .cos-chatline-panel:after {border-left-width: 0;border-right-width: 14px;left: -14px;right: auto;}
+
+/** cos-chatline content **/
+
+.tl-heading h4 {margin: 0;color: #c25b4e;}
+.tl-body p, .tl-body ul {margin-bottom: 0;color: #fff;font-size: 18px;}
+.tl-body > p + p {margin-top: 5px;}
+
+
+/* Loader */
+.cos-loader{width: 55%;}
+.cos-loader .cos-chatline-panel{float: right !important;}
+.dot {width: 11px;height: 11px;border: 2px solid #1db7f1;background: #1db7f1;border-radius: 50%;float: left;margin: 0 3px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: fx 1000ms ease infinite 0ms;
+          animation: fx 1000ms ease infinite 0ms;
+}
+.dot:nth-child(2) {
+  -webkit-animation: fx 1000ms ease infinite 400ms;
+          animation: fx 1000ms ease infinite 400ms;
+}
+.dot:nth-child(3) {
+  -webkit-animation: fx 1000ms ease infinite 800ms;
+          animation: fx 1000ms ease infinite 800ms;
+}
+@-webkit-keyframes fx {
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fx {
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/** media queries **/
+@media (min-width: 768px) {
+.cos-chatline li {margin:25px 65px 25px 65px;}
+.cos-chatline li .cos-tl-circ {left: 50%;}
+.tl-body-time { bottom: -40px !important;}
+.btn{font-size: 14px;}
+}
+
+@media (min-width: 992px) {
+  .cos-chatline{width: 860px; margin: 0 auto;}
+  .modal-dialog {width: 854px;margin: 78px auto;}
+  .modal {left: 17px;}
+  .btn{font-size: 18px;}
+
+}
+
+@media (max-width: 991px) {
+  .cos-chatline li .cos-chatline-panel {width: 44%;}
+}
+
+@media (max-width: 700px) {
+  .page-header h1 { font-size: 1.8em; }
+  ul.cos-chatline:before {left: 40px;}
+  .tldate { width: 140px; }
+  ul.cos-chatline li .cos-chatline-panel {width: calc(100% - 55px);width: -moz-calc(100% - 55px);width: -webkit-calc(100% - 55px);  }
+  ul.cos-chatline li .tl-circ {top: 22px;left: 22px;margin-left: 0;}
+  ul.cos-chatline > li > .tldate {margin: 0;}
+  ul.cos-chatline > li > .cos-chatline-panel {float: right;}
+  ul.cos-chatline > li > .cos-chatline-panel:before {border-left-width: 0;border-right-width: 15px;left: -15px;right: auto;}
+  ul.cos-chatline > li > .cos-chatline-panel:after {border-left-width: 0;border-right-width: 14px;left: -14px;right: auto;  }
+}
+
+
