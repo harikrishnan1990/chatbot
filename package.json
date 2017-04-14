@@ -8,8 +8,9 @@
   },
   "author": "Harikrishnan",
   "license": "BSD-2-Clause",
-  "dependencies": {
-    "express": "~4.14.0",
-    "gmail-send": "~1.2.7"
+  "dependencies":
+  {
+    "express":"*",
+    "body-parser":"*"
   }
 }
